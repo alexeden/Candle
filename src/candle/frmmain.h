@@ -13,11 +13,13 @@
 #include <QList>
 #include <QTime>
 #include <QMenu>
+#include <QDrag>
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QProgressDialog>
 #include <QScriptEngine>
 #include <QGroupBox>
+#include <QTranslator>
 #include <exception>
 
 #include "parser/gcodeviewparse.h"
@@ -90,7 +92,7 @@ public:
     ~frmMain();
 
     Q_INVOKABLE void sendCommand(QString command, int tableIndex = -1, bool showInConsole = true, bool queue = false);
-    Q_INVOKABLE void applySettings();    
+    Q_INVOKABLE void applySettings();
 
     double toolZPosition();
 
@@ -182,7 +184,7 @@ private slots:
     void on_cmdHeightMapCreate_clicked();
     void on_cmdHeightMapBorderAuto_clicked();
     void on_cmdFileAbort_clicked();
-    void on_cmdSpindle_clicked(bool checked);   
+    void on_cmdSpindle_clicked(bool checked);
     void on_mnuViewWindows_aboutToShow();
     void on_mnuViewPanels_aboutToShow();
 
@@ -238,7 +240,7 @@ private:
 
     OriginDrawer *m_originDrawer;
 
-    GcodeDrawer *m_codeDrawer;    
+    GcodeDrawer *m_codeDrawer;
     GcodeDrawer *m_probeDrawer;
     GcodeDrawer *m_currentDrawer;
 
