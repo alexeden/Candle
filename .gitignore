@@ -72,3 +72,19 @@ bin
 
 #wrappers
 *_wrapper.bat
+*.o
+
+# Meta object code
+moc_*
+
+# Qt resource
+qrc_*
+
+# QMake stash
+*.stash
+
+# Build mac app
+**/Candle.app/*
+
+# Mac dyanmic lib
+*.dylib
