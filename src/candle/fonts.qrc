@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>fonts/Ubuntu-Regular.ttf</file>
+        <file>fonts/OpenSans-Regular.ttf</file>
     </qresource>
 </RCC>
