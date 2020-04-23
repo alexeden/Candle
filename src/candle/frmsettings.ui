@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">/*QWidget {
-	font-size: 9pt;
+	font-size: 12pt;
 }*/
 
 QSpinBox, QDoubleSpinBox {
@@ -213,7 +213,7 @@ QSplitter::handle:horizontal {
               <widget class="QSpinBox" name="txtQueryStateTime">
                <property name="font">
                 <font>
-                 <pointsize>9</pointsize>
+                 <pointsize>12</pointsize>
                 </font>
                </property>
                <property name="alignment">
@@ -267,7 +267,7 @@ QSplitter::handle:horizontal {
               <widget class="QSpinBox" name="txtSpindleSpeedMin">
                <property name="font">
                 <font>
-                 <pointsize>9</pointsize>
+                 <pointsize>12</pointsize>
                 </font>
                </property>
                <property name="alignment">
@@ -306,7 +306,7 @@ QSplitter::handle:horizontal {
               <widget class="QSpinBox" name="txtSpindleSpeedMax">
                <property name="font">
                 <font>
-                 <pointsize>9</pointsize>
+                 <pointsize>12</pointsize>
                 </font>
                </property>
                <property name="alignment">
@@ -331,7 +331,7 @@ QSplitter::handle:horizontal {
               <widget class="QSpinBox" name="txtLaserPowerMin">
                <property name="font">
                 <font>
-                 <pointsize>9</pointsize>
+                 <pointsize>12</pointsize>
                 </font>
                </property>
                <property name="alignment">
@@ -349,7 +349,7 @@ QSplitter::handle:horizontal {
               <widget class="QSpinBox" name="txtLaserPowerMax">
                <property name="font">
                 <font>
-                 <pointsize>9</pointsize>
+                 <pointsize>12</pointsize>
                 </font>
                </property>
                <property name="alignment">
@@ -626,7 +626,7 @@ QSplitter::handle:horizontal {
               <widget class="QSpinBox" name="txtHeightMapProbingFeed">
                <property name="font">
                 <font>
-                 <pointsize>9</pointsize>
+                 <pointsize>12</pointsize>
                 </font>
                </property>
                <property name="alignment">

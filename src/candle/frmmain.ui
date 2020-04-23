@@ -224,7 +224,7 @@ QLabel[overrided=&quot;false&quot;] {
           <widget class="QTableView" name="tblProgram">
            <property name="font">
             <font>
-             <pointsize>9</pointsize>
+             <pointsize>12</pointsize>
             </font>
            </property>
            <property name="contextMenuPolicy">
