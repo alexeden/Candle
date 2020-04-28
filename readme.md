@@ -9,23 +9,5 @@ Link the binaries:
 
 It might ask you to copy something into your bash profile. Do that.
 
-Clone the repo, navigate to it, then:
-`$  cmake src/`
-`$  make`
-
-The app will be install as `Candle.app` at the project root.
-
-Candle
------------
-GRBL controller application with G-Code visualizer written in Qt.
-
-Supported functions:
-* Controlling GRBL-based cnc-machine via console commands, buttons on form, numpad.
-* Monitoring cnc-machine state.
-* Loading, editing, saving and sending of G-code files to cnc-machine.
-* Visualizing G-code files.
-
-
-Build requirements:
-------------------
-Qt 5.4.2 with MinGW/GCC compiler
+Clone the repo, navigate to it, then build and run:
+`$  qmake && make && ./src/candle/Candle.app/Contents/MacOS/Candle`
